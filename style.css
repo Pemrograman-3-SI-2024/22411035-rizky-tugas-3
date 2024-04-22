@@ -1,0 +1,478 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 12%;
+    background-color:blueviolet;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+
+.navbar a{
+    font-size: 18px;
+    color:aliceblue;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a:active{
+    border-bottom: 3px solid rgb(255, 0, 0);
+}
+
+
+
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+
+.home-content {
+    max-width: 800px;
+    color: white;
+}
+
+.home-content h3{
+    font-size: 42px;
+}
+
+.home-content h1{
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.home-content p {
+    font-size: 18px;
+    margin: 25px 0 30px;
+}
+
+.btn-box {
+    width: 300px;
+    display: flex;
+
+}
+
+
+.btn1 {
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(145, 76, 192);
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+.img-box img{
+    border-radius: 15%;
+    width: 300px;
+    transition: 0.3s ease;
+}
+
+.img-box img:hover{
+    background-color: rgb(145, 76, 192);
+    box-shadow: 0 0 10px;
+    color: rgb(145, 76, 192);
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background-color: rgb(0, 0, 0);
+}
+
+.about-img img{
+    position: relative;
+    width: 300px;
+    box-shadow: 0 0 10px rgb(145, 76, 192);
+    border-radius: 15%;
+
+}
+
+.about-content h2{
+    text-align: left;
+    color: blueviolet;
+    font-size: 42px;
+    margin: 0.4em 0 1em;
+}
+
+.about-content h3{
+    font-size: 40px;
+    color: white;
+}
+
+.about-content p{
+    color: white;
+    font-size: 20px;
+    margin: 0.5em 0 2em;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0em 50em 0em 0em;
+    gap: 1em;
+}
+
+.social a{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.social a:hover{
+    color: rgb(145, 76, 192);
+    border-bottom:rgb(145, 76, 192);
+}
+
+.portofolio {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.card {
+    background-color: rgb(171, 81, 255);
+}
+
+.portofolio-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+}
+.portofolio-content .card{
+    flex: 1;
+    margin: 30px 20px;
+    box-shadow: 0px 2px 8px 0px; rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.portofolio-content .card img {
+    width: 100%;
+    height: auto;
+}
+
+.portofolio-content .card h2{
+    margin:13px 0px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.portofolio-content h1{
+    position: absolute;
+    text-align:justify;
+    justify-content: center;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    margin: 0em 0em 15em 0em;
+}
+
+.portofolio-content .card p{
+    font-size: 21px;
+    line-height: 1.5;
+    padding: 0px 15px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+.btnpro1{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.btnpro1{
+     border-radius: 15px;
+     padding: 5px 20px;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     cursor: pointer;
+     transition: 0.3s ease-in-out;
+}
+.btnpro1:hover{
+    background-color: red;
+}
+.contact-form{
+    padding: 7% 8%;
+}
+
+.contact-form h2{
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.contact-form form{
+    max-width: 40em;
+    margin: 0.1rem auto;
+    text-align: center;
+}
+
+.contact-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea{
+    width: 100%;
+    padding: 1em;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    border-radius: 0.7rem;
+    margin: 1rem 0rem 0rem 0rem;
+    resize: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.btnmsg{
+        padding: 15px 40px;
+        color: rgb(255, 255, 255);
+        background-color: blueviolet;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        font-size: 18px;
+        transition: 0.8s ease;
+        cursor: pointer;  
+        margin: 20px;
+}
+
+.btnmsg:hover{
+    background-color:red;
+    color: rgb(255, 255, 255);
+    border: 2px solid black;
+}
+
+.contact-form{
+    background-color: rgb(0, 0, 0);
+}
+
+.body1{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+}
+
+.body1 h2{
+    position: absolute;
+    text-align:justify;
+    justify-content: space-between;
+    font-size: 35px;
+    color:yellow;
+    margin: 0em 0em 14em 0em;
+  }
+  
+
+.skills{
+    width: 100%;
+    max-width: 600px;
+    padding: 10% 1% 10%;
+}
+
+.skill-name{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+
+
+.skill-bar{
+    height: 14px;
+    background: rgb(115, 115, 115);
+    border-radius: 3px;
+}
+
+
+.skill-per{
+    height: 14px;
+    background: yellow;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+}
+
+
+.skill-per::before{
+content: attr(per);
+position: absolute;
+padding: 4px 6px;
+background: white;
+border-radius: 4px;
+font-size: 12px;
+top: -35px;
+right: 0;
+transform: translateX(50%);
+}
+
+.skill-per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 25px 0;
+    background-color: blueviolet;
+    color: white;
+}
+
+.footer .copyright{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+
+TES2 
+/* Media query untuk perangkat dengan lebar <= 768px (misalnya, tablet dan smartphone) */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 15px 5%; /* Ubah padding untuk header */
+    }
+
+    .navbar a {
+        position: relative; /* Set anchor position to relative */
+        overflow: hidden; /* Hide overflow content */
+        width: 0; /* Set width to 0 */
+        transition: width 0.3s ease; /* Add transition for smooth animation */
+    }
+
+    .navbar a::after {
+        content: attr(data-text); /* Display text using pseudo-element ::after */
+        position: absolute; /* Position text absolutely */
+        top: 0; /* Align text to the top */
+        left: 0; /* Align text to the left */
+        width: 100%; /* Set width to 100% to occupy full space */
+        transition: width 0.3s ease; /* Add transition for smooth animation */
+    }
+
+    .contact {
+        padding: 8px 20px; /* Sesuaikan padding untuk tombol kontak */
+    }
+
+    .home-content,
+    .about,
+    .portofolio,
+    .contact-form {
+        padding: 10% 5%; /* Sesuaikan padding untuk konten agar lebih responsif */
+    }
+
+    .portofolio-content{
+        flex-direction: column;
+       
+    }
+    
+
+    .body1 h2 {
+        bottom: 100px; /* Ubah posisi teks "My Skill" agar terlihat lebih baik pada layar kecil */
+        left: 0; /* Reset posisi ke default */
+    }
+
+    /* Perubahan untuk membuat gambar menjadi responsif */
+    .img-box img {
+        width: 100%; /* Mengatur lebar gambar menjadi 100% dari lebar kontainer */
+        height: auto; /* Mengatur tinggi gambar agar proporsional */
+    }
+
+    /* Perubahan untuk membuat teks responsif */
+    .home-content h3 {
+        font-size: 28px; /* Ukuran font yang lebih kecil untuk judul h3 pada layar kecil */
+    }
+
+    .home-content h1 {
+        font-size: 30px; /* Ukuran font yang lebih kecil untuk judul h1 pada layar kecil */
+    }
+
+    .home-content p {
+        font-size: 16px; /* Ukuran font yang lebih kecil untuk paragraf pada layar kecil */
+        margin: 15px 0 20px; /* Margin yang lebih kecil untuk paragraf pada layar kecil */
+    }
+
+    .about-content h2,
+    .about-content h3,
+    .about-content p {
+        font-size: 18px; /* Ukuran font yang lebih kecil untuk konten pada bagian about */
+    }
+
+    .footer {
+        padding: 15px 0; /* Sesuaikan padding footer untuk layar kecil */
+    }
+
+}
